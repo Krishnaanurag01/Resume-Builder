@@ -1,0 +1,14 @@
+{
+    "document" : {
+        "id": null ,
+        "skincd" : ""
+    },
+    "contact": null,
+    "education": null,
+    "experience":null,
+    "skill":[],
+    "auth":{
+        "error":"",
+        "loading":false
+    }
+}

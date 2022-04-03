@@ -1,0 +1,39 @@
+.gettingStarted {
+
+ 
+
+
+  .selected-skin{
+    border: 2px solid teal;
+  }
+}
+.footerg{
+  //  position: absolute;
+  //  bottom: 20rem;
+ 
+  
+  background-color: #292727;
+  margin-top: 20px;
+   height: 10rem;
+ }
+
+
+@media screen and ( max-width : '430px') {
+
+  .gettingStarted {
+
+    position: relative;
+
+  }
+  //  .footerg{
+  // //   //  position: absolute;
+  // //   //  bottom: 20rem;
+  // //   background-color: black;
+    
+  //   background: #292727;
+  //   margin-top: 20px;
+  //    height: 10rem;
+  //  }
+
+
+}

@@ -1,0 +1,74 @@
+.about-page{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.footer-ap{
+    width: 100vw;
+    background-color: #292727;;
+    height: 13.5rem;
+}
+
+
+@media screen and(max-width: '500px') {
+    
+    .about-page{
+        width: 100%;
+        padding: 0;
+        position: relative;
+
+        .contact-right-section > img{
+            
+            height: 32rem;
+            width: 88vw;
+        }
+        .contact-left-section{
+            width: 100%;
+            position: absolute;
+            top: 60rem;
+        }
+
+        .email{
+            font-size: 2rem;
+        }
+
+    }
+    .footer-ap{
+        position: absolute;
+        top: 100rem;
+    }
+}
+
+@media screen and(min-width: '501px')  and(max-width:'1000px') {
+    
+    .about-page{
+        width: 100%;
+        padding: 0;
+        position: relative;
+
+        .contact-right-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding-top: 0rem;
+            margin-bottom: 5rem;
+        }
+
+        .contact-right-section > img{
+            
+            height: 40rem;
+            width: 60vw;
+        }
+        .contact-left-section{
+            width: 100%;
+            position: absolute;
+            top: 65rem;
+        }
+
+    }
+    .footer-ap{
+        position: absolute;
+        top: 90rem;
+    }
+}

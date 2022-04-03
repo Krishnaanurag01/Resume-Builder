@@ -1,0 +1,512 @@
+.skin1{
+
+    font-family: 'Trebuchet MS';
+
+    .nameSection{
+
+        font-size: 1.5rem;
+        
+        .contactname{
+            color: #47a9de ;
+            font-size: 6rem;
+            font-weight: bold;
+            margin-bottom: 4rem;
+
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    font-size: 2rem;
+
+
+
+    .contact-name{
+        color: rgb(45, 95, 187);
+       
+        font-size: 4rem;
+        font-weight: bold;
+        padding: 5px 0px;
+    }
+    .address{
+        padding: 5px 0px;
+    }
+    .educationSection{
+
+        margin-top: 5rem;
+
+        // .eduStyle{
+        //     // margin-left: 5rem;
+        //     // padding-left: 5rem;
+        //     // background-color: aquamarine;
+        // }
+
+    }
+
+    .projectSection{
+        margin-top: 5rem;
+    }
+
+    .skillSection{
+
+        margin-top: 5rem;
+
+        .skills-container{
+            // border: 5px solid blue;
+            display: flex;
+            // flex-direction: row;
+            align-items: flex-start;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            // align-items: center;
+
+            .skill-box{
+                padding: 1rem;
+                font-size: 2rem;
+                border: 2px solid #47a9de;
+                background-color: #47a9de;
+                color: rgb(255, 255, 255) ;
+                border-radius: 20px;
+                font-weight: bolder;
+            }
+
+        }
+    }
+
+    .profSummSection{
+        margin-top: 5rem;
+    }
+
+    .sectionHeading > p{
+        color: rgb(24, 21, 21);
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;        
+        font-weight: bold;
+    }
+
+
+    .divider{
+        width: 100%;
+        margin-left: 0.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    
+        border-bottom: 1px solid #47a9de;
+    }
+}
+
+
+
+// 2nd skin.
+
+.skin4{
+
+    padding: 3rem;
+    color: rgb(133, 131, 131);
+
+
+    .nameSection{
+        
+        .contactname{
+            font-size: 6rem;
+            font-weight: bold;
+            font-family: monospace;
+            text-decoration: solid;
+            text-align: left;
+            color: #000000 ;
+            margin-bottom: 2rem;
+
+        }
+
+        p {
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            color: rgb(133, 131, 131);
+        }
+    }
+
+
+    .address{
+        margin-top: -2rem;
+    }
+
+    .profSummSection{
+        
+        .introSum {
+            
+            p{
+                padding: 1rem 1rem 0rem 1rem;
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+    .educationSection{
+
+        // margin-top: 5rem;
+
+         .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+            // background-color: aquamarine;
+        }
+    }
+
+    .projectSection{
+        // margin-top: 5rem;
+
+        .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+        }
+    }
+
+    .skillSection{
+
+        // margin-top: 5rem;
+
+        .skills-container{
+            // border: 5px solid blue;
+            display: flex;
+            // flex-direction: row;
+            align-items: flex-start;
+            padding: 2rem;
+            gap: 5rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            // align-items: center;
+
+            .skill-box{
+                padding: 1.5rem;
+                font-size: 1.8rem;
+                // border: 2px solid rgb(133, 131, 131);
+                background-color: rgb(224, 228, 230);
+                color: rgb(0, 0, 0) ;
+                border-radius: 20px;
+                font-weight: bolder;
+            }
+
+        }
+    }
+
+    .sectionHeading{
+        margin-top: 3rem;
+        width: 100%;
+        background-color:  rgb(224, 228, 230);
+        
+
+        p{
+            padding: 1rem;
+            margin: 0;
+            font-weight: bold;       
+            color: rgb(24, 21, 21);
+            font-size: 2rem;
+            text-align: left;
+        }
+
+    }
+
+
+    .live{
+        color: black;
+        font-size: 2rem;
+    }
+
+}
+
+
+
+// 3rd skin
+
+
+.skin6{
+
+    font-family: 'Times New Roman';
+    padding: 3rem;
+    color: rgb(133, 131, 131);
+
+
+    .nameSection{
+        
+        .contactname{
+            font-size: 5rem;
+            text-decoration: solid;
+            text-align: left;
+            color: #000000 ;
+            margin-bottom: 4rem;
+
+        }
+
+        p {
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            color: rgb(133, 131, 131);
+        }
+    }
+
+
+    .address{
+        margin-top: -2rem;
+    }
+
+    .profSummSection{
+        
+        .introSum {
+            
+            p{
+                padding: 1rem 1rem 0rem 1rem;
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+    .educationSection{
+
+        // margin-top: 5rem;
+
+         .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+            // background-color: aquamarine;
+        }
+    }
+
+    .projectSection{
+        // margin-top: 5rem;
+
+        .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+        }
+    }
+
+    .skillSection{
+
+        // margin-top: 5rem;
+
+        .skills-container{
+            // border: 5px solid blue;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 2rem;
+            gap: 4rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+
+            .skill-box{
+                padding: 1.1rem;
+                font-size: 1.8rem;
+                // border: 2px solid rgb(133, 131, 131);
+                background-color: rgb(224, 228, 230);
+                color: rgb(0, 0, 0) ;
+                border-radius: 20px;
+                font-weight: bolder;
+            }
+
+        }
+    }
+
+    .sectionHeading{
+        margin-top: 3rem;
+        width: 100%;
+        // background-color:  rgb(224, 228, 230);
+        
+
+        p{
+            padding: 1rem;
+            margin: 0;
+            font-weight: bold;       
+            color: rgb(24, 21, 21);
+            font-size: 2rem;
+            text-align: left;
+        }
+
+    }
+
+
+    .live{
+        color: black;
+        font-size: 2rem;
+    }
+
+}
+
+
+
+// skin 4
+
+
+
+.skin7{
+
+    padding: 3rem;
+    color: rgb(133, 131, 131);
+    font-family: monospace;
+
+
+    .nameSection{
+
+        // margin-bott: 5rem;
+        
+        .contactname{
+            font-size: 6rem;
+            font-family:  'Helvetica Neue';
+            text-decoration: solid;
+            font-weight: bold;
+            text-align: center;
+            color: #14b43c ;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: rgb(133, 131, 131);
+        }
+    }
+
+
+    .address{
+        margin-top: -2rem;
+    }
+
+    .profSummSection{
+        
+        .introSum {
+            
+            p{
+                padding: 1rem 1rem 0rem 1rem;
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+    .educationSection{
+
+        // margin-top: 5rem;
+
+         .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+            // background-color: aquamarine;
+        }
+    }
+
+    .projectSection{
+        // margin-top: 5rem;
+
+        .eduStyle > p{
+            font-size: 1.5rem;
+            padding-left: 5rem;
+        }
+    }
+
+    .skillSection{
+
+        // margin-top: 5rem;
+
+        .skills-container{
+            // border: 5px solid blue;
+            display: flex;
+            // flex-direction: row;
+            align-items: flex-start;
+            padding: 2rem;
+            gap: 5rem;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            // align-items: center;
+
+            .skill-box{
+                padding: 1.1rem;
+                font-size: 1.8rem;
+                // border: 2px solid rgb(133, 131, 131);
+                background-color: #42ac5d ;
+                color: rgb(255, 255, 255) ;
+                border-radius: 20px;
+                font-weight: bolder;
+            }
+
+        }
+    }
+
+    .sectionHeading{
+        margin-top: 3rem;
+        width: 100%;
+        // background-color:  rgb(224, 228, 230);
+        border-bottom: 2px solid green;
+        // width: 100%;
+        margin-left: 0.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        
+
+        p{
+            padding: 1rem;
+            margin: 0;
+            font-weight: bold;       
+            color: rgb(24, 21, 21);
+            font-size: 2rem;
+            text-align: left;
+        }
+
+    }
+
+}
+
+
+@media screen and (min-width:'350px') and (max-width :'850px') {
+
+
+    .nameSection{
+
+        .user-name{
+            // background-color: #000000;
+
+            .contactname{
+                font-size: 3rem;
+                // color: #14b43c;
+            }
+        }
+
+  
+    }
+}
+
+
+@media screen and (min-width: '100px') and (max-width:'350px'){
+
+
+    .nameSection{
+
+        .user-name{
+            // background-color: #000000;
+
+            .contactname{
+                font-size: 2.5rem;
+                // color: #14b43c;
+            }
+        }
+
+  
+    }
+}
+
+
+
+
+
+
+
+

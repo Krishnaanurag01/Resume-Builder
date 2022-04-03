@@ -1,0 +1,177 @@
+.lp-page{
+
+
+    height: 78vh;
+    width: 100vw;
+
+    .section{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+    }
+
+    .section > div{
+        width: 50%;
+        // height: 100%;
+    }
+
+    .lp-resume {
+        height: 50rem;
+        width: 60rem ;
+    }
+    
+}
+
+.footer-lp{
+    width: 100vw;
+    background-color: #292727;;
+    height: 13rem;
+}
+
+@media screen and ( max-width : '524px') {
+    
+
+    .lp-page{
+
+        margin-bottom: 45rem;
+
+        // background-color: aqua;
+
+
+        // height: 60%;
+        width: 100%;
+    
+        .section{
+            flex-direction: column;
+            position: relative;
+            padding: 3rem;
+        }
+        
+        .section > .text-cont{
+            position: absolute;
+            top: 50rem;
+            // padding: 5rem;
+
+        }
+    
+        .section > div{
+            width: 100%;
+            height: 50%;
+        }
+    
+        .lp-resume {
+            height: 35rem;
+            width: 100% ;
+        }
+
+        // .footer{
+
+        //     position: absolute ;
+        //     top : 90rem ;
+        //     height: 15rem;
+        // }
+
+    }
+
+}
+
+
+
+@media screen and ( min-width : '525px') and (max-width:'1000px') {
+    
+
+    .lp-page{
+
+       
+        // height: 60%;
+        width: 100%;
+    
+        .section{
+            flex-direction: row;
+            position: relative;
+            padding: 3rem;
+        }
+        
+    
+        .section {
+            
+            .text-cont{
+                width: 50vw;
+            }
+
+            .img-cont{
+                width: 50vw;
+            }
+        }
+    
+        .lp-resume {
+            height: 40rem;
+            width: 100% ;
+        }
+
+        // .footer{
+
+        //     position: absolute ;
+        //     top : 90rem ;
+        //     height: 15rem;
+        // }
+
+    }
+
+}
+
+
+@media screen and ( min-width : '1024px'){
+    
+
+    .lp-page{
+
+       
+        // height: 60%;
+        width: 100%;
+    
+        .section{
+            flex-direction: row;
+            position: relative;
+            // padding: 3rem;
+            justify-content: center;
+            align-items: center;
+            // margin-bottom: rem;
+        }
+        
+    
+        .section {
+            
+            .text-cont{
+                width: 50vw;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                margin-bottom: 8rem;
+            }
+
+            .img-cont{
+                width: 50vw;
+                height: 100%;
+            }
+        }
+    
+        .lp-resume {
+            height: 60rem;
+            width: 60rem ;
+            // margin-bottom: 5rem;
+        }
+
+        // .footer{
+
+        //     position: absolute ;
+        //     top : 90rem ;
+        //     height: 15rem;
+        // }
+
+    }
+
+}

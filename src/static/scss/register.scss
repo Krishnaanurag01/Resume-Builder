@@ -1,0 +1,95 @@
+.register-cont{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+     .container {
+        width: 50vw;
+
+        .form-card{
+            width: 100%;
+        }
+    }
+
+    .img-cont{
+        width: 50vw;
+    }
+
+    .img-signup{
+        height:60rem;
+        margin-top: 10rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width :'430px'){
+
+    .register-cont{
+        // background-color: aquamarine;
+
+        flex-direction: column;
+
+        .container {
+            margin-top: 5rem;
+            width: 80vw;
+            padding: 2rem;
+    
+            .form-card{
+                width: 90%;
+                height: 53%;
+            }
+        }
+
+    .img-cont{
+        width: 0vw;
+    }
+
+    .img-signup{
+      display: none;
+    }
+
+    .funnel-section{
+        width: 90vw;
+    }
+    }
+}
+
+
+@media screen and (min-width: '431px') and (max-width : '900px') {
+    
+    .register-cont{
+        // background-color: red;
+        flex-direction: row;
+        position: relative;
+
+        .funnel-section {
+            width: 90vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            margin-top: 5rem;
+            width: 100%;
+            // padding: 4rem
+            .form-card {
+                width: 90%;
+                padding: 2rem;
+            }
+        }
+    
+        .img-cont {
+            width: 0;
+        }
+    
+        .loginImg{
+            display: none;    
+        }
+
+        .funnel-section{
+            width: 90vw;
+        }
+
+    }
+}
